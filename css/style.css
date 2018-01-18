@@ -1,11 +1,12 @@
 body{
+font-family:"Muli";
 margin: 0;
 padding: 0;
 width: 100%;
 }
 h1 {
-font-family:"Muli", sans-serif;
-font-weight:normal;
+font-family: "Muli";
+font-weight: 100;
 font-size: 55px;
 text-align: center;
 color: #fff;
@@ -13,8 +14,8 @@ margin: 0;
 padding: 0;
 }
 h2 {
-font-family:"Muli", sans-serif;
-font-weight: normal;
+font-family: "Muli";
+font-weight: 100;
 font-size: 40px;
 text-align: center;
 color: #fff;
