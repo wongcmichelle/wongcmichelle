@@ -4,7 +4,7 @@ padding: 0;
 width: 100%;
 }
 h1 {
-font-family:"Muli:300", sans-serif;
+font-family:"Muli", sans-serif;
 font-weight:normal;
 font-size: 55px;
 text-align: center;
@@ -13,7 +13,7 @@ margin: 0;
 padding: 0;
 }
 h2 {
-font-family:"Muli:300", sans-serif;
+font-family:"Muli", sans-serif;
 font-weight: normal;
 font-size: 40px;
 text-align: center;
@@ -56,20 +56,20 @@ margin-top: 9px;
 float: left;
 padding-left: 21px;
 }
-#nav li a { color: #fff; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Wellfleet'; }
+#nav li a { color: #fff; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Muli'; }
 #nav li a.active { color: #fff; opacity:1; border-bottom: 2px solid #fff; }
 #nav li a:hover { color: #fff; opacity:1; }
 
 .quotes {
-font-family: 'Goudy Bookletter 1911', serif;
+font-family: 'Muli', serif;
 font-weight: normal;
 font-size: 30px;
 text-align: left;
 margin: 50px auto;
 }
 
- .author_name_white { font-family:"Wellfleet"; margin: 70px 0 0 75px; color: #fff; font-size: 20px; } 
- .author_name_gray { font-family:"Wellfleet"; margin: 70px 0 0 75px; color: #94a4a4; font-size: 20px; } 
+ .author_name_white { font-family:"Muli"; margin: 70px 0 0 75px; color: #fff; font-size: 20px; } 
+ .author_name_gray { font-family:"Muli"; margin: 70px 0 0 75px; color: #94a4a4; font-size: 20px; } 
  .quotes_container { width: 800px; margin: 0 auto; }
 #christmas_tree { background: url('../img/christmas-tree.png')no-repeat; width: 48px; height: 77px; margin: 0 auto; position: relative; bottom: -35px;}
 #divider { background: url('../img/divider.png')no-repeat; width: 300px; height: 35px; margin: 0px auto 27px auto; }
@@ -116,5 +116,5 @@ color: #fff;
 background-size: cover;
 }
 
-#copyright { color: #fff; font-family:"Wellfleet"; font-size: 14px; margin-top: 100px; text-align: center; }
+#copyright { color: #fff; font-family:"Muli"; font-size: 14px; margin-top: 100px; text-align: center; }
 #copyright a { text-decoration: none; color: #fff; }
