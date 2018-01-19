@@ -9,7 +9,7 @@ font-family: "Muli";
 font-weight: 100;
 font-size: 55px;
 text-align: center;
-color: #fff;
+color: #000;
 margin: 0;
 padding: 0;
 }
@@ -18,7 +18,7 @@ font-family: "Muli";
 font-weight: 100;
 font-size: 40px;
 text-align: center;
-color: #fff;
+color: #000;
 margin: 0;
 padding: 0;
 }
@@ -41,9 +41,10 @@ li {
 .clear { clear: both; }
 
 #header {
+z-index: 1000;
 width: 100%;
 /*background: url('../img/header-bg.png');*/
-background: #FFDCD4;
+background: rgba(255, 220, 212, .95);
 border-top: 2px solid black;
 border-bottom: 2px solid black;
 height: 80px;
@@ -51,7 +52,7 @@ position: fixed;
 margin-top: 30px;
 }
 #nav { width: 510px; float: right; margin-top: 20px; }
-#logo a { color: #000; text-decoration: none; float: left; font-size: 30px; margin-top: 20px; color: #000; font-family:"Muli"; font-weight: bold; }
+#logo a { text-decoration: none; float: left; font-size: 30px; margin-top: 20px; color: #000; font-family:"Muli"; font-weight: bold; }
 #nav ul{
 list-style: none;
 display: block;
@@ -80,9 +81,15 @@ margin: 50px auto;
  .quotes_container { width: 800px; margin: 0 auto; }
 #divider { background: url('../img/divider.png')no-repeat; width: 300px; height: 35px; margin: 0px auto 27px auto; }
 
+/*.layer {
+ background-color: rgba(255, 255, 255, 0.5);
+ height: 100%;
+}*/
+
 #slide1, #slide2{ width: 100%; }
 #slide1{
-background:url('../img/background-1.jpeg') 50% / 0 no-repeat fixed;
+background:url('../img/home-office.jpg') 50% / 0 no-repeat fixed;
+/*background-color: rgba(255, 220, 212, 1);*/
 color: #fff;
 height: 600px;
 margin: 0;
@@ -98,8 +105,9 @@ overflow: hidden;
 padding: 200px 0;
 }
 #slide3{
-background: url(../img/background-1.jpeg) 50% 0 no-repeat fixed;
-color: #fff;
+/*background: url(../img/) 50% 0 no-repeat fixed;*/
+background-color: rgba(255, 220, 212, 1);
+color: #000;
 height: 600px;
 padding: 170px 0 0 0;
 background-size: cover;
@@ -111,13 +119,14 @@ height: 300px;
 padding: 200px 0;
 }
 #slide5{
-background: url(../img/background-1.jpeg) 50% 0 no-repeat fixed;
+/*background: url(../img/) 50% 0 no-repeat fixed;*/
+background-color: rgba(255, 220, 212, 1);
 height: 200px;
 margin: 0 auto;
 padding: 250px 0;
-color: #fff;
+color: #000;
 background-size: cover;
 }
 
 #copyright { color: #fff; font-family:"Muli"; font-size: 14px; margin-top: 100px; text-align: center; }
-#copyright a { text-decoration: none; color: #fff; }
+#copyright a { text-decoration: none; color: #000; }
