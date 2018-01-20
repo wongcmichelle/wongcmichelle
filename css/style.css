@@ -88,9 +88,9 @@ margin: 50px auto;
 
 #slide1, #slide2{ width: 100%; }
 #slide1{
-background:url('../img/home-office.jpg') 50% / 0 no-repeat fixed;
+background:url('../img/office.jpg') 50% / 0 no-repeat fixed;
 /*background-color: rgba(255, 220, 212, 1);*/
-color: #fff;
+color: #000;
 height: 600px;
 margin: 0;
 padding: 200px 0 260px 0;
