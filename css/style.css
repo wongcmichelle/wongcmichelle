@@ -64,7 +64,7 @@ margin-top: 9px;
 float: left;
 padding-left: 21px;
 }
-#nav li a { color: #333; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Muli'; }
+#nav li a { color: #333; opacity: 0.6; font-size: 16px; text-decoration: none; font-family: 'Muli'; }
 #nav li a.active { color: #333; opacity:1; border-bottom: 2px solid #333; }
 #nav li a:hover { color: #333; opacity:1; }
 
@@ -96,6 +96,26 @@ margin: 0;
 padding: 200px 0 260px 0;
 background-size: cover;
 }
+
+.icons {
+ font-size: 30px;
+ text-align: center;
+}
+
+.icons a:link {
+    color: #333;
+}
+
+/* visited link */
+.icons a:visited {
+    color: #333;
+}
+
+/* mouse over link */
+.icons a:hover {
+    color: #333/*rgba(255, 220, 212, 1)*/;
+}
+
 #slide2{
 background-color: #fff;
 color: #333333;
@@ -128,5 +148,8 @@ color: #333;
 background-size: cover;
 }
 
-#copyright { color: #fff; font-family:"Muli"; font-size: 14px; margin-top: 100px; text-align: center; }
+#copyright { color: #333; font-family:"Muli"; font-size: 14px; margin-top: 100px; text-align: center; }
 #copyright a { text-decoration: none; color: #333; }
+a:hover { color: #333; opacity:1; text-decoration: none;
+ border-bottom: 2px solid #333;
+}
