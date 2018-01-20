@@ -9,7 +9,7 @@ font-family: "Muli";
 font-weight: 100;
 font-size: 55px;
 text-align: center;
-color: #000;
+color: #333;
 margin: 0;
 padding: 0;
 }
@@ -18,7 +18,7 @@ font-family: "Muli";
 font-weight: 100;
 font-size: 40px;
 text-align: center;
-color: #000;
+color: #333;
 margin: 0;
 padding: 0;
 }
@@ -52,7 +52,7 @@ position: fixed;
 margin-top: 30px;
 }
 #nav { width: 510px; float: right; margin-top: 20px; }
-#logo a { text-decoration: none; float: left; font-size: 30px; margin-top: 20px; color: #000; font-family:"Muli"; font-weight: bold; }
+#logo a { text-decoration: none; float: left; font-size: 30px; margin-top: 20px; color: #333; font-family:"Muli"; font-weight: bold; }
 #nav ul{
 list-style: none;
 display: block;
@@ -64,9 +64,9 @@ margin-top: 9px;
 float: left;
 padding-left: 21px;
 }
-#nav li a { color: #000; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Muli'; }
-#nav li a.active { color: #000; opacity:1; border-bottom: 2px solid #000; }
-#nav li a:hover { color: #000; opacity:1; }
+#nav li a { color: #333; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Muli'; }
+#nav li a.active { color: #333; opacity:1; border-bottom: 2px solid #333; }
+#nav li a:hover { color: #333; opacity:1; }
 
 .quotes {
 font-family: 'Muli', serif;
@@ -90,7 +90,7 @@ margin: 50px auto;
 #slide1{
 background:url('../img/office.jpg') 50% / 0 no-repeat fixed;
 /*background-color: rgba(255, 220, 212, 1);*/
-color: #000;
+color: #333;
 height: 600px;
 margin: 0;
 padding: 200px 0 260px 0;
@@ -107,7 +107,7 @@ padding: 200px 0;
 #slide3{
 /*background: url(../img/) 50% 0 no-repeat fixed;*/
 background-color: rgba(255, 220, 212, 1);
-color: #000;
+color: #333;
 height: 600px;
 padding: 170px 0 0 0;
 background-size: cover;
@@ -124,9 +124,9 @@ background-color: rgba(255, 220, 212, 1);
 height: 200px;
 margin: 0 auto;
 padding: 250px 0;
-color: #000;
+color: #333;
 background-size: cover;
 }
 
 #copyright { color: #fff; font-family:"Muli"; font-size: 14px; margin-top: 100px; text-align: center; }
-#copyright a { text-decoration: none; color: #000; }
+#copyright a { text-decoration: none; color: #333; }
