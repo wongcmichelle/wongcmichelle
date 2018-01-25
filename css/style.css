@@ -125,8 +125,8 @@ overflow: hidden;
 padding: 200px 0;
 }
 #slide3{
-/*background: url(../img/) 50% 0 no-repeat fixed;*/
-background-color: rgba(255, 220, 212, 1);
+background: url(../img/pink-bg-with-girl.jpg) 50% 0 no-repeat fixed;
+/*background-color: rgba(255, 220, 212, 1);*/
 color: #333;
 height: 600px;
 padding: 170px 0 0 0;
@@ -139,8 +139,8 @@ height: 300px;
 padding: 200px 0;
 }
 #slide5{
-/*background: url(../img/) 50% 0 no-repeat fixed;*/
-background-color: rgba(255, 220, 212, 1);
+background: url(../img/pink-bg-with-girl.jpg) 50% 0 no-repeat fixed;
+/*background-color: rgba(255, 220, 212, 1);*/
 height: 200px;
 margin: 0 auto;
 padding: 250px 0;
