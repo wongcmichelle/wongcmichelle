@@ -116,7 +116,7 @@ background-size: cover;
     color: #333/*rgba(255, 220, 212, 1)*/;
 }
 
-#slide2{
+#lang-and-tools{
 background-color: #fff;
 color: #333333;
 height: 300px;
@@ -124,21 +124,22 @@ margin: 0 auto;
 overflow: hidden;
 padding: 200px 0;
 }
-#slide3{
+#work-exp{
 background: url(../img/pink-bg-with-girl.jpg) 50% 0 no-repeat fixed;
 /*background-color: rgba(255, 220, 212, 1);*/
 color: #333;
-height: 600px;
+/*height: 600px;*/
+height: 800px;
 padding: 170px 0 0 0;
 background-size: cover;
 }
-#slide4{
+#projects{
 background-color: #fff;
 color: #333333;
 height: 300px;
 padding: 200px 0;
 }
-#slide5{
+#extras{
 background: url(../img/pink-bg-with-girl.jpg) 50% 0 no-repeat fixed;
 /*background-color: rgba(255, 220, 212, 1);*/
 height: 200px;
