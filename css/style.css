@@ -154,3 +154,11 @@ background-size: cover;
 a:hover { color: #333; opacity:1; text-decoration: none;
  border-bottom: 2px solid #333;
 }
+
+@media only screen and (max-width: 1024px) {
+ #about{
+ background:url('../img/office.jpg');
+ background-size: cover;
+ background-position: center;
+ }
+}
